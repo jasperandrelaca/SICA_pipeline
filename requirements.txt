@@ -1,0 +1,17 @@
+# Python >= 3.8
+numpy
+scipy
+pandas
+nibabel
+nilearn>=0.9        # tested with 0.14.1 (boolean `standardize` is deprecated from 0.15)
+matplotlib
+seaborn
+tqdm
+
+# Step 00 / step 03 only
+templateflow
+antspyx                          # ANTsPy
+cbig_network_correspondence      # CBIG Network Correspondence Toolbox
+
+# External (not pip-installable): FSL >= 6.0 (MELODIC, dual_regression); the
+# study used 6.0.7.15. fMRIPrep for preprocessing (see docs/PIPELINE.md).
